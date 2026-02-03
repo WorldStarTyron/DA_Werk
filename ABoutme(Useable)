@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(255, 253, 253);
+    color: lightgray;
+    min-height: 100vh;
+    line-height: 1.5;
+}
+
+.image-gradient {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+.layer-blur {
+    height: 0;
+    width: 30rem;
+    position: absolute;
+    top: 20%;
+    right: 0;
+    box-shadow: 0 0 700px 15px #ffffff;
+    rotate: -30deg;
+    z-index: -1;
+}
+
+/* Header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5rem;
+    z-index: 999;
+}
+
+header h1 {
+    color: black;
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+/* Navigation styles */
+nav {
+    align-items: center;
+    gap: 3rem;
+    margin-left: -5%;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: gray;
+}
+
+nav ul {
+    display: flex;
+    gap: 2rem;
+}
+
+/* Main styles */
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: calc(100vh - 6rem);
+}
+
+.content {
+    width: 100%;
+    max-width: 1200px;
+}
+
+/* Introduction section styles */
+.First_section {
+    justify-content: space-between;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    max-width: 1200px;
+    padding: 4rem;
+}
+
+.Introduction_container h1 {
+    margin-bottom: 1rem;
+    color: black;
+}
+
+.Introduction_text a {
+    color: rgb(255, 2, 2);
+}
+
+.Introduction_paragraph {
+    width: 100%;
+    max-width: 500px;
+    font-weight: 600;
+    color: black;
+}
+
+.introduction_image_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Introduction_image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+
+}
+
+.social {
+    margin-top: 10px;
+    padding: 0.75rem 1rem;
+    border-radius: 10px;
+    width: fit-content;
+    display: flex;
+    gap: 1rem;
+}
+
+.social a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.social a:hover {
+    transform: scale(1.3);
+}
+
+.fa-instagram {
+    color: #C13584;
+}
+
+.fa-linkedin {
+    color: #0A66C2;
+}
+
+.fa-twitter {
+    color: #1DA1F2;
+}
+
+.fa-facebook {
+    color: #1877F2;
+}
+
+.social i{
+    font-size: 30px;
+}
+
+
+
+/* Skills List */
+.skills {
+    margin-top: 1rem;
+}
+
+.skills ul {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.skills li {
+    background-color: black;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.skills li:hover {
+    background-color: gray;
+    transform: translateY(-2px);
+}
+
+
+<i class="fa-solid fa-code"></i>
